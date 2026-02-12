@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Study Analytics</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <h2>Study Analytics Dashboard</h2>
+  <button onclick="logout()">Logout</button>
+</div>
+
+<div class="analytics">
+  <h3>🔥 Current Streak: <span id="streak-count">0</span> days</h3>
+
+  <h3>Overall Completion</h3>
+  <div class="progress-bar">
+    <div id="progress-fill"></div>
+  </div>
+  <p id="progress-text"></p>
+</div>
+
+<div id="subject-cards" class="cards"></div>
+
+<h3 class="tracker-title">Daily Tracker</h3>
+<div id="table-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
